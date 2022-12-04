@@ -7,6 +7,6 @@ public class importJava {
         Date date = new Date();
         System.out.println("A data é " + date);
 
-        JButton button = new JButton();
+       // JButton button = new JButton();
     }
 }
