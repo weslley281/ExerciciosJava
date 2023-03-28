@@ -4,10 +4,7 @@ package classes;
 
 public class ProdutoTeste {
     public static void main(String[] args) {
-        Produto p1 = new Produto();
-        p1.nome = "Chuca";
-        p1.preco = 49.99;
-        p1.desconto = 0.15;
+        Produto p1 = new Produto("Chuca", 49.99, 0.15);
 
         var p2 = new Produto();
         p2.nome = "Supositório";
