@@ -2,24 +2,34 @@ package oo.heranca;
 
 public class Jogo {
     public static void main(String[] args) {
-        Jogador jogador1 = new Jogador();
-        jogador1.x = 10;
-        jogador1.y = 10;
+        Monstro monstro = new Monstro();
+        monstro.x = 10;
+        monstro.y = 10;
 
-        jogador1.andar(Direcao.Norte);
-        jogador1.andar(Direcao.Norte);
-        jogador1.andar(Direcao.Norte);
-        System.out.println(jogador1.y);
+        Heroi heroi = new Heroi();
+        heroi.x = 10;
+        heroi.y = 11;
 
-        jogador1.andar(Direcao.Leste);
-        System.out.println(jogador1.y);
+        System.out.println("Monstro = " + monstro.vida);
+        System.out.println("Heroi = " + heroi.vida);
 
-        jogador1.andar(Direcao.Oeste);
-        jogador1.andar(Direcao.Oeste);
+        monstro.atacar(heroi);
+        heroi.atacar(monstro);
 
-        System.out.println(jogador1.y);
-        jogador1.andar(Direcao.Sul);
+        System.out.println("Monstro = " + monstro.vida);
+        System.out.println("Heroi = " + heroi.vida);
 
-        System.out.println(jogador1.y);
+        monstro.andar(Direcao.Norte);
+        monstro.atacar(heroi);
+        heroi.atacar(monstro);
+
+        System.out.println("Monstro = " + monstro.vida);
+        System.out.println("Heroi = " + heroi.vida);
+
+        monstro.atacar(heroi);
+        heroi.atacar(monstro);
+
+        System.out.println("Monstro = " + monstro.vida);
+        System.out.println("Heroi = " + heroi.vida);
     }
 }
