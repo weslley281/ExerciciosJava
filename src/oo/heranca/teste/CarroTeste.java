@@ -39,5 +39,7 @@ public class CarroTeste {
 
         carro2.acelerar();
         System.out.println("Ferrari " + carro2);
+
+        System.out.println(carro2.velocidadeDoAr());
     }
 }
