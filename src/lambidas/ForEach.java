@@ -17,5 +17,15 @@ public class ForEach {
 
         System.out.println("\nCom Method Reference");
         aprovados.forEach(System.out::println);
+
+        System.out.println("\nCom Lambida 2");
+        aprovados.forEach(nome -> meuImprimir(nome));
+
+        System.out.println("\nCom Method Reference 2");
+        aprovados.forEach(ForEach::meuImprimir);
+    }
+
+    static void meuImprimir(String nome){
+        System.out.println("Escrevendo isso aqui " + nome);
     }
 }
