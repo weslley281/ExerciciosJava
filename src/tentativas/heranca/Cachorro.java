@@ -1,4 +1,4 @@
-package teste.heranca;
+package tentativas.heranca;
 
 public class Cachorro extends Animal{
     public Cachorro(String nome){

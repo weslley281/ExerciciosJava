@@ -15,7 +15,7 @@ public class ConjuntoBaguncado {
 
         System.out.println("O tamanho é " + conjunto.size());
 
-        conjunto.add("teste");
+        conjunto.add("tentativas");
 
         System.out.println("O tamanho é " + conjunto.size());
 
@@ -23,7 +23,7 @@ public class ConjuntoBaguncado {
 
         System.out.println("O tamanho é " + conjunto.size());
 
-        System.out.println(conjunto.contains("teste"));
+        System.out.println(conjunto.contains("tentativas"));
 
         //conjunto.clear();
 

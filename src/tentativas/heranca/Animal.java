@@ -1,4 +1,4 @@
-package teste.heranca;
+package tentativas.heranca;
 
 public class Animal {
     protected String nome;

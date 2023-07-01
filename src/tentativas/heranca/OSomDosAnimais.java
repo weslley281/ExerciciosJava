@@ -1,4 +1,4 @@
-package teste.heranca;
+package tentativas.heranca;
 
 import java.util.ArrayList;
 import java.util.List;
