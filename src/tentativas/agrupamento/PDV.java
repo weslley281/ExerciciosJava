@@ -1,4 +1,4 @@
-package teste.agrupamento;
+package tentativas.agrupamento;
 
 import java.util.ArrayList;
 import java.util.List;

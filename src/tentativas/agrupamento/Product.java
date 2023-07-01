@@ -1,4 +1,4 @@
-package teste.agrupamento;
+package tentativas.agrupamento;
 
 public class Product {
     protected String name;
